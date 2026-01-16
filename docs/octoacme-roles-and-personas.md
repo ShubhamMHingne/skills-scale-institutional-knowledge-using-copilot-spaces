@@ -1,81 +1,51 @@
-# OctoAcme Personas
+# OctoAcme Roles and Personas
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+This document lists core and supporting personas, their responsibilities, and how they interact with other roles. It is intended to improve clarity and accountability across project activities.
 
----
+## Core delivery roles (existing)
+- Product Manager
+  - Owns prioritization, product vision, and stakeholder alignment.
+  - Works with Stakeholder Liaison, Engineers, and QA to translate needs into backlog items.
+- Engineering Lead
+  - Coordinates technical direction, reviews designs, and mentors developers.
+  - Collaborates with Security Champion and DevOps on architecture and deployment concerns.
+- Developer
+  - Implements features and fixes, writes tests, and documents key design decisions.
+  - Raises implementation risks to Engineering Lead and Product Manager.
+- QA Engineer
+  - Defines test plans, executes test runs, verifies acceptance criteria, and validates releases.
+  - Works with Developers and Product Managers to clarify acceptance criteria.
+- Designer
+  - Produces UX artifacts and ensures consistent design implementation.
+  - Collaborates with Product and Engineering during planning and reviews.
 
-## Developers
+## Additional personas to add (new)
+- Stakeholder Liaison
+  - Serves as the primary contact for external/internal stakeholders and consolidates feedback.
+  - Attends stakeholder briefings and channels clear, prioritized requests to Product Managers.
+  - Interaction: Works with Product Manager to ensure stakeholder expectations are reflected in requirements and communicates changes back to stakeholders.
 
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+- Customer Success Manager
+  - Represents end-user adoption and onboarding concerns; tracks user feedback and adoption metrics.
+  - Coordinates release enablement materials and post-release support plans with QA, Support, and Product.
+  - Interaction: Feeds user insights to Product Managers and Designers; collaborates with Technical Writer for guides.
 
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+- Technical Writer
+  - Produces and maintains user-facing docs, internal runbooks, and process documentation.
+  - Ensures documentation is updated alongside releases and PRs that change user-visible behavior.
+  - Interaction: Works closely with Developers, Product, and Customer Success to validate documentation accuracy.
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+- Scrum Master / Agile Coach
+  - Facilitates ceremonies (stand-ups, retrospectives, sprint planning), removes impediments, and supports continuous improvement.
+  - Coaches teams on Agile practices and helps evolve workflows to reduce waste.
+  - Interaction: Supports Product, Engineering Leads, and QA to ensure that processes (e.g. Definition of Done) are followed.
 
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+- Security Champion
+  - Advocates for secure coding and design reviews within the delivery team.
+  - Performs lightweight threat reviews, tracks security findings, and coordinates with centralized security teams.
+  - Interaction: Works with Engineering Leads and Developers early in design; escalates to security teams for audits.
 
----
-
-## Product Managers
-
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
-
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
-
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
-
----
-
-## Project Managers
-
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
-
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
-
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
-
----
-
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## How to use this document
+- Add role owners to project onboarding checklists and role descriptions.
+- When creating or updating a process doc, list the primary and secondary role contacts next to the section so teams know who to consult.
 
